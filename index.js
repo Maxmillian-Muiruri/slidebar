@@ -40,3 +40,5 @@ function carousel() {
     slide.style.transform = `translateX(-${counter * 100}%)`;
   });
 }
+
+prevBtn.style.display = "none";
