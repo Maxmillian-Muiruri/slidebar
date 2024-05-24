@@ -45,11 +45,8 @@
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-/*
 
-Global Styles
-
-*/
+/* Global Styles */
 
 *,
 ::after,
@@ -239,4 +236,20 @@ Slider
 .prevBtn:hover,
 .nextBtn:hover {
   color: var(--clr-grey-3);
+}
+
+@media screen and (min-width: 576px) {
+  .slider-container {
+    height: 45vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slider-container {
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  .slider-container {
+    height: 65vh;
+  }
 }
